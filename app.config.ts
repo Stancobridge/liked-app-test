@@ -13,7 +13,7 @@ const config: ExpoConfig = {
   plugins: ['expo-router', '@react-native-firebase/app', 'expo-secure-store'],
   extra: {
     eas: {
-      projectId: '53cfb266-fc62-4f51-bb20-5cc07b62b1f3',
+      projectId: '09c5bc74-fb26-4d08-aae3-3daff9260676',
     },
   },
   android: {
@@ -28,7 +28,6 @@ const config: ExpoConfig = {
     fallbackToCacheTimeout: 0,
   },
   assetBundlePatterns: ['**/*'],
-  
 };
 
 export default config;
